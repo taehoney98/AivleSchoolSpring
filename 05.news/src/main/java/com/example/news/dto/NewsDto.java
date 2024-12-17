@@ -15,4 +15,13 @@ public class NewsDto {
     }
 
 
+    @Getter
+    @Setter
+    @ToString
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Patch{
+        private String title;
+        private String content;
+    }
 }
